@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Página-1" id="RiYXW59v0OTB3vmBUPXj">
+    <mxGraphModel dx="1050" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qE_mAE76bpkneZr455gp-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SISTEMA DE E-COMMERCE&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="159" y="315" width="510" height="465" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwm_C0jj3zf1BP_iA64-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qE_mAE76bpkneZr455gp-1" target="qE_mAE76bpkneZr455gp-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="520" />
+              <mxPoint x="130" y="520" />
+              <mxPoint x="130" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPwm_C0jj3zf1BP_iA64-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qE_mAE76bpkneZr455gp-1" target="qE_mAE76bpkneZr455gp-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="520" />
+              <mxPoint x="130" y="520" />
+              <mxPoint x="130" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPwm_C0jj3zf1BP_iA64-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qE_mAE76bpkneZr455gp-1" target="qE_mAE76bpkneZr455gp-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="520" />
+              <mxPoint x="130" y="520" />
+              <mxPoint x="130" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qE_mAE76bpkneZr455gp-1" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwm_C0jj3zf1BP_iA64-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qE_mAE76bpkneZr455gp-13" target="qE_mAE76bpkneZr455gp-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="510" />
+              <mxPoint x="650" y="510" />
+              <mxPoint x="650" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qE_mAE76bpkneZr455gp-13" value="Sistema de Pagamento" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwm_C0jj3zf1BP_iA64-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qE_mAE76bpkneZr455gp-14" target="qE_mAE76bpkneZr455gp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qE_mAE76bpkneZr455gp-14" value="Adicionar ao carrinho" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qE_mAE76bpkneZr455gp-15" value="Finalizar compra" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qE_mAE76bpkneZr455gp-21" value="Avaliar produto" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="610" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qE_mAE76bpkneZr455gp-27" value="INCLUDE" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="qE_mAE76bpkneZr455gp-15" target="qE_mAE76bpkneZr455gp-28" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="394.5" as="sourcePoint" />
+            <mxPoint x="470" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qE_mAE76bpkneZr455gp-28" value="Selecionar método de&lt;div&gt;pagamento&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qE_mAE76bpkneZr455gp-35" value="INCLUDE" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qE_mAE76bpkneZr455gp-33" target="qE_mAE76bpkneZr455gp-36" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="485" y="600" as="sourcePoint" />
+            <mxPoint x="590" y="601" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qE_mAE76bpkneZr455gp-36" value="Verificar CEP" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="670" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qE_mAE76bpkneZr455gp-33" value="Calcular frete" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="540" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwm_C0jj3zf1BP_iA64-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qE_mAE76bpkneZr455gp-15" target="qE_mAE76bpkneZr455gp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
