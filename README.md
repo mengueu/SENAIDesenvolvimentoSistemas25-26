@@ -1,8 +1,10 @@
-# SENAI Desenvolvimento de Sistemas 25-26
-Salvando os principais TRABALHOS e AULAS do curso de Desenvolvimento de Sistemas 2025-2026 SENAI concluído por Miguel Augusto Rocha
+<img align="right" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SENAI_S%C3%A3o_Paulo_logo.png/1280px-SENAI_S%C3%A3o_Paulo_logo.png"  />
 
-## Boletim
+# Técnico em Desenvolvimento de Sistemas 2025-2026
+<p>🇧🇷: Salvando os principais TRABALHOS e AULAS do curso "Técnico em Desenvolvimento de Sistemas 2025-2026 SENAI" concluído por Miguel Augusto Rocha.</p>
+<p></p>🇺🇸: Saving the main PROJECTS and CLASSES from the “Technical Course in Systems Development 2025–2026 SENAI” completed by Miguel Augusto Rocha.</p>
 
+## Boletim / School Transcript
 
 2025:
 -  **1 - Sistemas Operacionais:** 90/100
