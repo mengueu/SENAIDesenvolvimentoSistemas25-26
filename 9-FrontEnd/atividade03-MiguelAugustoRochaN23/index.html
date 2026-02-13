@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 03 - Miguel Augusto Rocha N23</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cadastro">
+        <h1>Cadastro de Alunos</h1>
+
+        <form id="formCadastro">
+            
+            <div class="formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+
+            <div class="formulario">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="formulario">
+                <label for="ra">RA:</label>
+                <input type="text" id="ra" name="ra">
+            </div>
+
+            <div class="formulario">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+
+            <div class="formulario">
+                <label for="turma">Turma:</label>
+                <input type="text" id="turma" name="turma">
+            </div>
+
+            <button type="button" onclick="cadastrarAluno()">Cadastrar</button>
+
+        </form>
+    </div>
+
+    <div class="cadastrados">
+        <h2>Lista de Alunos Cadastrados</h2>
+        <ul id="listaAlunos"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
