@@ -35,6 +35,8 @@
 $sapo = new Sapo();
 echo "O sapo " . $sapo->fazerSom();
 
+?>
+
 echo "<br/> <br/>";
 
 $cavalo = new Cavalo();
