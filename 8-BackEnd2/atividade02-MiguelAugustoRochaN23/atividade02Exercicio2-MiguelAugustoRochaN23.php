@@ -35,8 +35,6 @@
 $sapo = new Sapo();
 echo "O sapo " . $sapo->fazerSom();
 
-?>
-
 echo "<br/> <br/>";
 
 $cavalo = new Cavalo();
@@ -46,3 +44,5 @@ echo "<br/> <br/>";
 
 $tartaruga = new Tartaruga();
 echo "A tartaruga faz " . $tartaruga->fazerSom();
+
+?>
