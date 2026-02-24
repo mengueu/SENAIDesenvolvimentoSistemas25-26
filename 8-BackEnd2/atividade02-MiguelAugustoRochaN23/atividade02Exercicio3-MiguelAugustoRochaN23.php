@@ -43,10 +43,10 @@ $carro->setModelo("Corolla");
 $carro->setVelocidade("80 Km/h");
 echo "Carro: " . $carro->getMarca() . " " . $carro->getModelo() . ", velocidade: " . $carro->getVelocidade() . "<br/> <br/>";
 
-?>
-
 $moto = new Moto();
 $moto->setMarca("Honda");
 $moto->setModelo("CBR600RR");
 $moto->setVelocidade("120 Km/h");
 echo "Moto: " . $moto->getMarca() . " " . $moto->getModelo() . ", velocidade: " . $moto->getVelocidade();
+
+?>
