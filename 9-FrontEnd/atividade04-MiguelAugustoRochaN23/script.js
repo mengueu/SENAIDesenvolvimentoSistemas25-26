@@ -1,5 +1,5 @@
 var quadrado = document.getElementById("quadrado");
-var info = document.getElementById("info");
+var informacoes = document.getElementById("informacoes");
 
 var tamanho = 100;
 var rotacao = 0;
@@ -84,5 +84,5 @@ document.addEventListener("keydown", function(event) { // Clicar C para mudar a 
 });
 
 window.addEventListener("resize", function() { // Resize da janela para mostrar a largura atual
-    info.textContent = "Largura da janela: " + window.innerWidth + "px";
+    informacoes.textContent = "Largura da janela: " + window.innerWidth + "px";
 });
