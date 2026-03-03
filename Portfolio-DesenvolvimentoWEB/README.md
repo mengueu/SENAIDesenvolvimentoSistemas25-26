@@ -1,41 +1,112 @@
-<img align="right" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SENAI_S%C3%A3o_Paulo_logo.png/1280px-SENAI_S%C3%A3o_Paulo_logo.png"  />
+# 📁 Pasta do Portfólio de Desenvolvimento WEB
+<p> Esta pasta contém o diretório 'htdocs' do ambiente local utilizado durante as aulas de Desenvolvimento Web no curso Técnico em Desenvolvimento de Sistemas SENAI (2025–2026). </p> 
 
-# Técnico em Desenvolvimento de Sistemas 2025-2026
-<p>Salvando os principais TRABALHOS e AULAS do curso "Técnico em Desenvolvimento de Sistemas 2025-2026 SENAI" concluído por Miguel Augusto Rocha.</p>
+<br>
 
-## Boletim
+# 1️⃣ Requisitos para Execução
+<p> Para visualizar os projetos corretamente, é necessário instalar: </p>
 
-2025:
--  **1 - Sistemas Operacionais:** 90/100
--  **2 - Lógica de Programação e Algorítmo:** 100/100
--  **3 - Levantamento de requisitos:** 85/100
--  **4 - Banco de Dados:** 95/100
--  **5 - Linguagem de Marcação:** 97,5/100
--  **6 - Programação BackEnd 1:** 92,5/100
--  **7 - Projeto de Software 1:** 95/100
-  
-2026:
--  **8 - Programação BackEnd 2:** XXX/100
--  **9 - Programação FrontEnd:** XXX/100
+- XAMPP (Apache + PHP + MySQL)
 
+<p>Download oficial: https://www.apachefriends.org/</p>
+<p>Sistema recomendado: Windows.</p>
+
+<br>
+
+# 2️⃣ Inserir a Pasta no Diretório
+<p>Após a instalação acesse: C:\xampp\</p>
+<p>Substitua a pasta 'htdocs' existente pela pasta 'htdocs' deste repositório ou copie o conteúdo desta pasta para dentro do seu 'htdocs'.</p>
+
+<br>
+
+# 3️⃣ Iniciar o Servidor
+<p>Abra o Painel de Controle do XAMPP e inicie:</p>
+
+- Apache
+- MySQL 
+
+<br>
+
+# 4️⃣ Acessar no Navegador
+<p>Abra o navegador e digite: http://localhost</p>
+
+<br>
+
+# 📌 Observações Técnicas
+- O ambiente foi configurado para execução local.
+- Caso a porta 80 esteja ocupada, pode ser necessário alterar a porta do Apache.
+- Execute o XAMPP como administrador caso haja erro de permissão.
+- O projeto não depende de conexão com internet para funcionar localmente.
+- Banco de Dados:
+  - Alguns projetos utilizam banco de dados MySQL. Para configurar acesse: http://localhost/phpmyadmin
+  - Crie um novo banco de dados.
+  - Importe o arquivo .sql correspondente disponível na pasta do projeto.
+
+<br>
+
+# 🎯 Finalidade
+<p>Este diretório foi incluído com fins acadêmicos, demonstrando:</p>
+
+- Organização de projetos
+- Estruturação de ambiente local
+- Desenvolvimento FrontEnd e BackEnd
+- Integração com banco de dados
+
+<br>
 <hr>
+<br>
 
-<img align="right" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SENAI_S%C3%A3o_Paulo_logo.png/1280px-SENAI_S%C3%A3o_Paulo_logo.png"  /><br>
+# 📁 WEB Development Portfolio Folder
 
-# Systems Development Technician 2025-2026
-<p>Saving the main PROJECTS and CLASSES from the “Technical Course in Systems Development 2025–2026 SENAI” completed by Miguel Augusto Rocha.</p>
+<p>This folder contains the 'htdocs' directory from the local environment used during the Web Development classes in the Systems Development Technical Course (SENAI – 2025–2026).</p>  
 
-## School Transcript
+<br>
 
-2025:
--  **1 - Operating Systems:** 90/100
--  **2 - Logic and Algorithms:** 100/100
--  **3 - Requirements Gathering:** 85/100
--  **4 - Databases:** 95/100
--  **5 - Markup Language:** 97,5/100
--  **6 - BackEnd Programming 1:** 92,5/100
--  **7 - Software Design 1:** 95/100
-  
-2026:
--  **8 - BackEnd Programming 2:** XXX/100
--  **9 - FrontEnd Programming:** XXX/100
+# 1️⃣ Execution Requirements
+<p>To properly view the projects, it is necessary to install:</p>
+
+- XAMPP (Apache + PHP + MySQL)
+
+<p>Official download: https://www.apachefriends.org/</p>  
+<p>Recommended system: Windows.</p>
+
+<br>
+
+# 2️⃣ Insert the Folder into the Directory
+<p>After installation, navigate to: C:\xampp\</p>  
+<p>Replace the existing 'htdocs' folder with the 'htdocs' folder from this repository, or copy the contents of this folder into your existing 'htdocs'.</p>
+
+<br>
+
+# 3️⃣ Start the Server
+<p>Open the XAMPP Control Panel and start:</p>
+
+- Apache  
+- MySQL  
+
+<br>
+
+# 4️⃣ Access in the Browser
+<p>Open your browser and type: http://localhost</p>
+
+<br>
+
+# 📌 Technical Notes
+- The environment was configured for local execution.
+- If port 80 is already in use, it may be necessary to change the Apache port.
+- Run XAMPP as administrator if you encounter permission errors.
+- The project does not require an internet connection to run locally.
+- Database:
+  - Some projects use a MySQL database. To configure it, access: http://localhost/phpmyadmin
+  - Create a new database.
+  - Import the corresponding `.sql` file available in the project folder.
+
+<br>
+
+# 🎯 Purpose
+<p>This directory was included for academic purposes, demonstrating:</p>
+
+- Project organization  
+- Local environment setup  
+- FrontEnd and BackEnd development  
+- Database integration  
