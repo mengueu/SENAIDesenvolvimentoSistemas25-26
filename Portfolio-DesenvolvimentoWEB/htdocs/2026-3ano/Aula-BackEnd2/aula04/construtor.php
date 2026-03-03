@@ -25,6 +25,4 @@ echo "<br>";
 
 $pessoa->alterarDados("André", 18);
 echo $pessoa->exibirDados();
-
-
 ?>
