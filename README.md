@@ -1,7 +1,5 @@
-<img align="right" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SENAI_S%C3%A3o_Paulo_logo.png/1280px-SENAI_S%C3%A3o_Paulo_logo.png"  />
-
 # Técnico em Desenvolvimento de Sistemas 2025-2026
-<p>Salvando os principais TRABALHOS e AULAS do curso "Técnico em Desenvolvimento de Sistemas 2025-2026 SENAI" concluído por Miguel Augusto Rocha.</p>
+<p><img src="https://flagcdn.com/w20/br.png" width: 40px> : Salvando os principais TRABALHOS e AULAS do curso "Técnico em Desenvolvimento de Sistemas 2025-2026 SENAI" concluído por Miguel Augusto Rocha.</p>
 
 ## Boletim
 
@@ -20,10 +18,8 @@
 
 <hr>
 
-<img align="right" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SENAI_S%C3%A3o_Paulo_logo.png/1280px-SENAI_S%C3%A3o_Paulo_logo.png"  /><br>
-
 # Systems Development Technician 2025-2026
-<p>Saving the main PROJECTS and CLASSES from the “Technical Course in Systems Development 2025–2026 SENAI” completed by Miguel Augusto Rocha.</p>
+<p><img src="https://flagcdn.com/w20/us.png" width: 40px> : Saving the main PROJECTS and CLASSES from the “Technical Course in Systems Development 2025–2026 SENAI” completed by Miguel Augusto Rocha.</p>
 
 ## School Transcript
 
