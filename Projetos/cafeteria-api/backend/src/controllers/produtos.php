@@ -7,8 +7,8 @@ $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $path = trim($path, '/');
 $segments = explode('/', $path);
 
-if (isset($segments[3])) { // /cafeteria-api/backend/categorias/id
-    $id = $segments[3];//          [0]         [1]       [2]    [3]
+if (isset($segments[5])) { // 2026-3ano/Projetos/cafeteria-api/backend/produtos
+    $id = $segments[5]; //      [0]       [1]        [2]         [3]     [4]
 } else {
     $id = null;
 }
