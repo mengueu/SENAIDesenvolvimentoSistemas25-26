@@ -18,7 +18,7 @@ void loop() {
    
     else if (comando == 'D' || comando == 'd') {
       digitalWrite(led, LOW);
-      Serial.println("LED Desligado);
+      Serial.println("LED Desligado");
     }
   }
 }
