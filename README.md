@@ -13,7 +13,7 @@
 -  **7 - Projeto de Software 1:** 95/100
   
 2026:
--  **8 - Programação BackEnd 2:** XXX/100
+-  **8 - Programação BackEnd 2:** 100/100
 -  **9 - Programação FrontEnd:** XXX/100
 
 <hr>
@@ -33,5 +33,5 @@
 -  **7 - Software Design 1:** 95/100
   
 2026:
--  **8 - BackEnd Programming 2:** XXX/100
+-  **8 - BackEnd Programming 2:** 100/100
 -  **9 - FrontEnd Programming:** XXX/100
