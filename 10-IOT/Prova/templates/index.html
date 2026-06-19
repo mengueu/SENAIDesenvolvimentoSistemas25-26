@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartClima - Dashboard IoT</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00d2ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"></path></svg>
+            SMART<span>CLIMA</span>
+        </div>
+        <div style="font-size: 14px; color: #8fa3b0;">CONTROLE INTELIGENTE DE TEMPERATURA</div>
+    </header>
+
+    <div class="dashboard-container">
+        
+        <div class="box">
+            <div class="box-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8fa3b0" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                TEMPERATURAS EXTERNAS
+            </div>
+            <ul class="weather-list" id="lista-clima">
+                <li class="weather-item"><span class="weather-city">Carregando dados globais...</span></li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <div class="box-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8fa3b0" stroke-width="2"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                LOGS DO SISTEMA (TEMPO REAL)
+            </div>
+            <div class="terminal-logs" id="terminal-logs">
+                </div>
+        </div>
+
+        <div class="box">
+            <div class="box-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8fa3b0" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                PAINEL DE CONTROLE (DHT11)
+            </div>
+
+            <div class="card-info">
+                <div class="card-titulo">TEMPERATURA INTERNA (SENSOR)</div>
+                <div class="display-temperatura">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#00d2ff" stroke-width="2"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"></path></svg>
+                    <div id="temp-valor">-- °C</div>
+                </div>
+            </div>
+
+            <div class="card-info">
+                <div class="card-titulo">AR-CONDICIONADO / AQUECEDOR</div>
+                <div class="linha-status">
+                    <div style="font-size: 14px; color: #8fa3b0; display: flex; align-items: center; gap: 10px;">
+                        STATUS: <span id="badge-status" class="badge">AGUARDANDO</span>
+                    </div>
+                    <button id="btn-power" class="btn-power" onclick="enviarComandoAr()">
+                        <svg viewBox="0 0 24 24"><path d="M12 2v10m-3.76-1.54a8 8 0 1 0 7.52 0" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                    </button>
+                </div>
+                <div id="texto-sugestao" class="sugestao-box">Conectando ao sensor...</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="static/js/script.js"></script>
+</html>

@@ -1,0 +1,122 @@
+/* ================= ESTILOS BASE ================= */
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+body {
+    background-color: #050b14;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(circle at center, #0a1930, #050b14);
+    overflow: hidden;
+}
+
+/* CABEÇALHO */
+header {
+    padding: 20px 40px;
+    border-bottom: 1px solid #1a365d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(10, 17, 34, 0.8);
+}
+.logo { font-size: 24px; font-weight: bold; color: #00d2ff; display: flex; align-items: center; gap: 10px; }
+.logo span { color: #ffffff; }
+
+/* ================= GRID PRINCIPAL ================= */
+.dashboard-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr; /* 3 Colunas */
+    gap: 20px;
+    padding: 20px;
+    height: calc(100vh - 80px);
+}
+
+/* CAIXAS PADRÃO DO DASHBOARD */
+.box {
+    background-color: #0a1122;
+    border: 1px solid #1a365d;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 150, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+.box-title {
+    font-size: 13px;
+    color: #8fa3b0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #1a365d;
+    padding-bottom: 10px;
+}
+
+/* ================= COLUNA 1: CLIMA MUNDIAL ================= */
+.weather-list { list-style: none; overflow-y: auto; flex-grow: 1; }
+.weather-item {
+    background-color: #0d172e;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 3px solid #00d2ff;
+}
+.weather-city { font-weight: bold; font-size: 15px; }
+.weather-temp { font-size: 20px; color: #00d2ff; font-weight: bold; }
+
+/* ================= COLUNA 2: LOGS DO SISTEMA ================= */
+.terminal-logs {
+    background-color: #03070e;
+    border: 1px solid #1a365d;
+    border-radius: 8px;
+    flex-grow: 1;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: #10b981;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.log-entry { padding: 5px; border-bottom: 1px solid #112233; }
+.log-time { color: #8fa3b0; margin-right: 10px; }
+.log-warn { color: #ef4444; } /* Vermelho para avisos */
+.log-info { color: #00d2ff; } /* Azul para info */
+
+/* ================= COLUNA 3: PAINEL DE CONTROLE ================= */
+.card-info { background-color: #0d172e; border: 1px solid #1e2d4a; border-radius: 10px; padding: 20px; margin-bottom: 15px; }
+.card-titulo { font-size: 12px; color: #8fa3b0; margin-bottom: 15px; font-weight: 600; letter-spacing: 1px;}
+.display-temperatura { display: flex; align-items: center; gap: 15px; }
+
+#temp-valor { font-size: 48px; font-weight: bold; color: #ffffff; text-shadow: 0 0 15px rgba(255,255,255,0.2); transition: color 0.4s; }
+.temp-frio { color: #00d2ff !important; text-shadow: 0 0 15px rgba(0, 210, 255, 0.4) !important; }
+.temp-ideal { color: #10b981 !important; text-shadow: 0 0 15px rgba(16, 185, 129, 0.4) !important; }
+.temp-quente { color: #ef4444 !important; text-shadow: 0 0 15px rgba(239, 68, 68, 0.4) !important; }
+
+.linha-status { display: flex; justify-content: space-between; align-items: center; }
+.badge { padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; color: #fff; background-color: #334155; }
+.badge-ligado { background-color: #10b981; box-shadow: 0 0 10px rgba(16, 185, 129, 0.4); }
+.badge-desligado { background-color: #ef4444; box-shadow: 0 0 10px rgba(239, 68, 68, 0.4); }
+
+.btn-power {
+    background: transparent; border: 2px solid #10b981; color: #10b981; width: 50px; height: 50px;
+    border-radius: 50%; cursor: pointer; display: flex; justify-content: center; align-items: center;
+    transition: all 0.3s ease;
+}
+.btn-power svg { width: 24px; height: 24px; fill: currentColor; }
+.btn-power:hover { box-shadow: 0 0 15px rgba(16, 185, 129, 0.6); transform: scale(1.05); }
+
+.sugestao-box { font-size: 13px; color: #64748b; margin-top: 15px; font-style: italic; }
+
+/* Responsividade para telas menores */
+@media (max-width: 1024px) {
+    .dashboard-container { grid-template-columns: 1fr; height: auto; overflow-y: auto; }
+    body { overflow: auto; }
+}
